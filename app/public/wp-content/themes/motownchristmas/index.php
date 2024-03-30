@@ -6,6 +6,6 @@
     <title>A Motown Christmas</title>
 </head>
 <body>
-    <p>Testing the theme</p>
+    
 </body>
 </html>
