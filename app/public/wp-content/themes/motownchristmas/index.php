@@ -6,6 +6,17 @@
     <title>A Motown Christmas</title>
 </head>
 <body>
-    
+    <div id="header">
+
+    </div>
+    <div id="video">
+
+    </div>
+    <div id="description">
+
+    </div>
+    <div id="footer">
+        
+    </div>
 </body>
 </html>
