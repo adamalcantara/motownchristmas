@@ -7,10 +7,10 @@
 <body <?php body_class(); ?>>
     <div id="page" class="site">
         <div id="header">
-
+        Logo
         <!-- Menu goes here -->
             <nav class="main-menu">
-
+            Menu
             </nav>
         </div>
 
