@@ -21,3 +21,19 @@ Tags:
     font-family: "Roboto", sans-serif;
     font-weight: 400;
 }
+
+#header {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* take all the sections of the site and center them */
+.site-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
