@@ -3,6 +3,8 @@
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Important function to make everything including loading stylesheets work -->
+    <?php wp_head(); ?>
 </head>
 
 <!-- Body section -->
