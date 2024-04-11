@@ -22,12 +22,27 @@ Tags:
     font-weight: 400;
 }
 
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #header {
     background-color: red;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    #header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
 
 /* take all the sections of the site and center them */

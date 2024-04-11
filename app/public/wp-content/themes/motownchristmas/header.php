@@ -9,7 +9,7 @@
 
 <!-- Body section -->
 <body <?php body_class(); ?>>
-    <div id="page" class="site">
+    <div id="page" class="container site">
         <!-- Header section -->
         <header id="header">
         Logo
