@@ -14,7 +14,7 @@
         <header id="header">
         Logo
         <!-- Menu goes here -->
-            <nav class="main-menu">
-            Menu
+            <nav id="main-menu">
+                <?php wp_nav_menu( array( 'theme_location' => 'motownchristmas_main_menu', 'depth' => 2 ) ); ?>
             </nav>
         </header>
