@@ -12,4 +12,10 @@ function motownchristmas_load_scripts() {
 
 add_action( 'wp_enqueue_scripts', 'motownchristmas_load_scripts' );
 
+register_nav_menus(
+    array(
+        'motownchristmas_main_menu' => 'Main Menu'
+    )
+);
+
 ?>
