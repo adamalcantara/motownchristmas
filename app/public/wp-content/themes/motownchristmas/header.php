@@ -14,17 +14,13 @@
         <!-- Header section -->
         <header id="header">
                 <section class="nav">
+
+                    <!-- Logo -->
                     <div id="logo">
                         <p>logo</p>
                     </div>
-                    <!-- Menu goes here -->
-                        <!-- Mobile Menu -->
-                        
-                        
-                        
-                        
-        
-                        
+
+                        <!-- Mobile Menu button -->
                         <button class="check-button">
                                 <div class="menu-icon">
                                     <div class="bar1"></div>
@@ -33,8 +29,10 @@
                                 </div>
                         </button>
                 </section>
+                
+                <!-- Main menu -->
                 <nav id="main-menu" class="main-menu">
-                            <?php wp_nav_menu( array( 'theme_location' => 'motownchristmas_main_menu', 'depth' => 2 ) ); ?>
-                        </nav>
+                    <?php wp_nav_menu( array( 'theme_location' => 'motownchristmas_main_menu', 'depth' => 2 ) ); ?>
+                </nav>
 
         </header>

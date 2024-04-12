@@ -1,3 +1,9 @@
+<?php 
+/*
+Template name: General Template
+*/
+?>
+
 <?php get_header(); ?>
 
         <!-- Site content box -->
