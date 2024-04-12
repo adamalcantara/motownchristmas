@@ -10,11 +10,29 @@
 <!-- Body section -->
 <body <?php body_class(); ?>>
     <div id="page" class="container site">
+    
         <!-- Header section -->
         <header id="header">
-        Logo
-        <!-- Menu goes here -->
-            <nav id="main-menu">
-                <?php wp_nav_menu( array( 'theme_location' => 'motownchristmas_main_menu', 'depth' => 2 ) ); ?>
-            </nav>
+                <section class="nav">
+
+                    <p>logo</p>
+                    <!-- Menu goes here -->
+                        <!-- Mobile Menu -->
+                        
+                        
+                        <button class="check-button">
+                                <div class="menu-icon">
+                                    <div class="bar1"></div>
+                                    <div class="bar2"></div>
+                                    <div class="bar3"></div>
+                                </div>
+                        </button>
+                        
+    
+                        <nav id="main-menu" class="main-menu">
+                            <?php wp_nav_menu( array( 'theme_location' => 'motownchristmas_main_menu', 'depth' => 2 ) ); ?>
+                        </nav>
+                </section>
+
+
         </header>
