@@ -32,6 +32,10 @@ Tags:
     background-image: url(./assets/motown_christmas_nav_background.png);
     width: 100%;
     height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #header p {
@@ -84,8 +88,11 @@ Tags:
     transition: 0.5s;
 }
 @media (max-width: 767px){
+    #header {
+        display: block;
+    }
     .nav {
-        
+        justify-content: space-between;
     }
     .menu-icon,
     .check-button {
