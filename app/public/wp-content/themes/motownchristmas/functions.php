@@ -25,6 +25,9 @@ function motownchristmas_config() {
         'flex-height' => true,
         'flex-width' => true
     ) );
+    
+    // make embedded elements responsive - this is for the YouTube video
+    add_theme_support( 'responsive-embeds' );
 }
 
 add_action( 'after_setup_theme', 'motownchristmas_config', 0)
