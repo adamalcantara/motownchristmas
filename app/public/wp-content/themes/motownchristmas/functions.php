@@ -30,6 +30,20 @@ function motownchristmas_config() {
     add_theme_support( 'responsive-embeds' );
 }
 
-add_action( 'after_setup_theme', 'motownchristmas_config', 0)
+add_action( 'after_setup_theme', 'motownchristmas_config', 0);
 
+add_action( 'widgets_init', 'motownchristmas_sidebars', 0 );
+function motownchristmas_sidebars(){
+    register_sidebar(
+        array(
+            'name' => 'Home Text',
+            'id' => 'home-text',
+            'description' => 'You can put some text here on the homepage',
+            'before_widget' => '<div class="widget-wrapper">',
+            'after_widget' => '</div>',
+            'before_title' => '<h4 class="widget-title"',
+            'after_title' => '</h4>'
+        )
+    );
+}
 ?>

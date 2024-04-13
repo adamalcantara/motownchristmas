@@ -23,8 +23,12 @@
                         <?php endif;
                         ?>
 
-                    <section class="video">
-                   
+                    <section class="home-text">
+                        <?php 
+                            if( is_active_sidebar( 'home-text' )){
+                                dynamic_sidebar( 'home-text' );
+                            }
+                        ?>
                     </section>
 
         </div>
