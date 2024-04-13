@@ -17,7 +17,16 @@
 
                     <!-- Logo -->
                     <div id="logo">
-                        <p>logo</p>
+                        <?php 
+                        if ( has_custom_logo() ){
+                            the_custom_logo(); 
+                        }else{
+                            ?>
+                            <a href="<?php echo home_url( '/' ); ?>"><span><?php bloginfo( 'name'
+                            ); ?></span></a>
+                            <?php
+                        }
+                        ?>
                     </div>
 
                         <!-- Mobile Menu button -->

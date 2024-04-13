@@ -12,10 +12,21 @@ function motownchristmas_load_scripts() {
 
 add_action( 'wp_enqueue_scripts', 'motownchristmas_load_scripts' );
 
-register_nav_menus(
-    array(
-        'motownchristmas_main_menu' => 'Main Menu'
-    )
-);
+function motownchristmas_config() {
+    register_nav_menus(
+        array(
+            'motownchristmas_main_menu' => 'Main Menu'
+        )
+    );
+
+    add_theme_support( 'custom-logo', array(
+        'width' => 50,
+        'height' => 50,
+        'flex-height' => true,
+        'flex-width' => true
+    ) );
+}
+
+add_action( 'after_setup_theme', 'motownchristmas_config', 0)
 
 ?>

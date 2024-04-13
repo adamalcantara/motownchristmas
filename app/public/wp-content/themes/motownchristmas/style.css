@@ -28,10 +28,20 @@ Tags:
     margin-right: auto;
 }
 
+h1 {
+    font-size: 50px !important;
+    font-weight: 900 !important;
+}
+
+h2 {
+    font-size: 30px !important;
+    font-weight: 900 !important;
+}
+
 #header {
     background-image: url(./assets/motown_christmas_nav_background.png);
     width: 100%;
-    height: 80px;
+    height: 150px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -40,6 +50,11 @@ Tags:
 
 #header p {
     color: white;
+}
+
+#logo img {
+    width: 150px !important;
+    height: auto;
 }
 
 .nav {
@@ -56,8 +71,22 @@ Tags:
 }
 
 #main-menu li {
-    font-size: 25px;
+    font-size: 30px;
     padding: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+    #main-menu li {
+        font-size: 25px;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #main-menu li {
+        font-size: 20px;
+        padding: 15px;
+    }
 }
 
 #main-menu a {
@@ -87,12 +116,15 @@ Tags:
     margin: 5px 0;
     transition: 0.5s;
 }
-@media (max-width: 767px){
+@media (max-width: 780px){
     #header {
         display: block;
     }
     .nav {
         justify-content: space-between;
+    }
+    #main-menu li {
+        font-size: 30px;
     }
     .menu-icon,
     .check-button {
@@ -106,7 +138,7 @@ Tags:
 	.main-menu ul{
 		position: absolute;
 		width: 100%;
-		background: #000000;
+		background: #8f0000;
 		left: -999px;
 		transition: all cubic-bezier(.79,.14,.15,.86) .8s;
         padding: 0;
@@ -151,12 +183,34 @@ Tags:
     }
 } 
 
+/* CONTENT */
+#content {
+    margin-top: 40px;
+    width: 80%;
+}
+
+/* HOMEPAGE */
+#home {
+    width: 100%;
+}
+.home-video {
+    width: 100% !important;
+    padding-top: 56.25% !important;
+    background-color: red;
+}
+
+.home-video iframe {
+    width: 100%;
+    height: 100% !important;
+}
+
 /* FOOTER */
 #footer {
     height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 30px;
 }
 
 #footerlink {
