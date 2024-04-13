@@ -23,14 +23,17 @@
                         <?php endif;
                         ?>
 
-                    <section class="home-text">
-                        <?php 
-                            if( is_active_sidebar( 'home-text' )){
-                                dynamic_sidebar( 'home-text' );
-                            }
-                        ?>
-                    </section>
+                    
 
         </div>
+        <section class="home-text">
+            <div id="home-text">
+                <?php 
+                    if( is_active_sidebar( 'home-text' )){
+                        dynamic_sidebar( 'home-text' );
+                    }
+                ?>
+            </div>
+        </section>
 
 <?php get_footer(); ?>
