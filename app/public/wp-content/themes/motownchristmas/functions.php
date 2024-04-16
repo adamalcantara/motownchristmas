@@ -36,6 +36,17 @@ add_action( 'widgets_init', 'motownchristmas_sidebars', 0 );
 function motownchristmas_sidebars(){
     register_sidebar(
         array(
+            'name' => 'Home Banner',
+            'id' => 'home-banner',
+            'description' => 'You can put some text here on the homepage',
+            'before_widget' => '<div class="widget-wrapper">',
+            'after_widget' => '</div>',
+            'before_title' => '<h4 class="widget-title"',
+            'after_title' => '</h4>'
+        )
+    );
+    register_sidebar(
+        array(
             'name' => 'Home Text',
             'id' => 'home-text',
             'description' => 'You can put some text here on the homepage',
