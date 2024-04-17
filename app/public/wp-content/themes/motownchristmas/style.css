@@ -195,7 +195,10 @@ h3 {
         width: 90% !important;
     }
     .home-banner-img {
-        width: 100%;
+        width: 100% !important;
+    }
+    .home-banner-text {
+        line-height: 30px !important;
     }
     .home-text {
         margin: 20px 0 !important;
@@ -219,6 +222,10 @@ h3 {
 .home-banner-text {
     color: #bf1e2e;
     line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 #home {
     width: 100%;
