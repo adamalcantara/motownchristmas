@@ -4,6 +4,15 @@
         <div id="content" class="container site-content">
 
                 <!-- Homepage sections -->
+                    <section class="home-banner">
+                        <div id="home-banner-img">
+                            <?php 
+                                if( is_active_sidebar( 'home-banner' )){
+                                    dynamic_sidebar( 'home-banner' );
+                                }
+                            ?>
+                        </div>
+                    </section>
                         <?php 
                             if( have_posts() ):
                                 while( have_posts() ) : the_post();

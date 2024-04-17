@@ -38,7 +38,7 @@ function motownchristmas_sidebars(){
         array(
             'name' => 'Home Banner',
             'id' => 'home-banner',
-            'description' => 'You can put some text here on the homepage',
+            'description' => 'You can place a banner at the top of the homepage',
             'before_widget' => '<div class="widget-wrapper">',
             'after_widget' => '</div>',
             'before_title' => '<h4 class="widget-title"',
