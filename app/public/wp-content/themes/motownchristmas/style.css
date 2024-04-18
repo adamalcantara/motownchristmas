@@ -209,6 +209,12 @@ h3 {
     }
 } 
 
+@media screen and (max-width: 1130px) {
+    .banner-h2 {
+        font-size: 20px !important;
+    }
+}
+
 /* CONTENT */
 #content {
     margin-top: 40px;
