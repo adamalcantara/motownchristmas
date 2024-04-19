@@ -24,7 +24,7 @@
                                 endwhile;
                         else:
                             ?>
-                            <!-- <p>Nothing yet to be displayed!</p> -->
+                            <p>Nothing yet to be displayed!</p>
                         <?php endif;
                         ?>
 
