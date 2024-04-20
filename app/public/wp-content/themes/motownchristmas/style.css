@@ -120,6 +120,87 @@ h3 {
     margin: 5px 0;
     transition: 0.5s;
 }
+
+/* CONTENT */
+#content {
+    margin-top: 40px;
+    width: 80%;
+}
+
+/* HOMEPAGE */
+.home-banner-img {
+    width: 80%;
+}
+.home-banner-text {
+    color: #bf1e2e;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#home {
+    width: 100%;
+}
+.home-video {
+    margin-top: 30px;
+}
+.home-text {
+    margin: 50px 0;
+    background-image: url(./assets/red_background.png);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+#home-text {
+    width: 80%;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+.home-button {
+    margin-top: 20px;
+}
+.home-button a {
+    background-color: white;
+    color: rgb(197, 26, 26);
+}
+.home-button a:hover {
+    background-color: rgb(197, 26, 26);
+    color: white;
+}
+
+/* FOOTER */
+#footer {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#footerlink {
+    text-decoration: none;
+    color: black;
+}
+
+#footerlink:hover {
+    color: rgb(197, 26, 26);
+    text-decoration: underline;
+}
+
+/* take all the sections of the site and center them */
+.site-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* MOBILE MEDIA QUERY */
 @media (max-width: 780px){
     #header {
         display: block;
@@ -211,85 +292,6 @@ h3 {
         font-size: 20px !important;
     }
 } 
-
-/* CONTENT */
-#content {
-    margin-top: 40px;
-    width: 80%;
-}
-
-/* HOMEPAGE */
-.home-banner-img {
-    width: 80%;
-}
-.home-banner-text {
-    color: #bf1e2e;
-    line-height: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-#home {
-    width: 100%;
-}
-.home-video {
-    margin-top: 30px;
-}
-.home-text {
-    margin: 50px 0;
-    background-image: url(./assets/red_background.png);
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 60px 0;
-}
-#home-text {
-    width: 80%;
-    color: white;
-    text-align: center;
-    font-size: 25px;
-    line-height: 1.6;
-    font-weight: 400;
-}
-.home-button {
-    margin-top: 20px;
-}
-.home-button a {
-    background-color: white;
-    color: rgb(197, 26, 26);
-}
-.home-button a:hover {
-    background-color: rgb(197, 26, 26);
-    color: white;
-}
-
-/* FOOTER */
-#footer {
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
-}
-
-#footerlink {
-    text-decoration: none;
-    color: black;
-}
-
-#footerlink:hover {
-    color: rgb(197, 26, 26);
-    text-decoration: underline;
-}
-
-/* take all the sections of the site and center them */
-.site-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
 
 /* CSS Reset from Meyerweb: */
 /* http://meyerweb.com/eric/tools/css/reset/ 
