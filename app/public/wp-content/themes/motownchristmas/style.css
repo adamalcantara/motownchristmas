@@ -125,6 +125,12 @@ h3 {
     align-items: center;
     justify-content: center;
 }
+.home-banner-text h2 {
+    font-size: 40px !important;
+}
+.home-banner-text h3 {
+    font-size: 25px !important;
+}
 #home {
     width: 75%;
 }
