@@ -56,5 +56,16 @@ function motownchristmas_sidebars(){
             'after_title' => '</h4>'
         )
     );
+    register_sidebar(
+        array(
+            'name' => 'Home Below Content',
+            'id' => 'home-below-content',
+            'description' => 'You can put some text here below the homepage content',
+            'before_widget' => '<div class="widget-wrapper">',
+            'after_widget' => '</div>',
+            'before_title' => '<h4 class="widget-title"',
+            'after_title' => '</h4>'
+        )
+    );
 }
 ?>

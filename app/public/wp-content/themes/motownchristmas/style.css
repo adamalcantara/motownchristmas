@@ -134,12 +134,6 @@ h3 {
 .home-banner-text h3 {
     font-size: 25px !important;
 }
-#home {
-    width: 75%;
-}
-.home-video {
-    margin-top: 30px;
-}
 .home-text {
     margin-top: 30px; 
     /* background-image: url(./assets/red_background.png); */
@@ -156,12 +150,19 @@ h3 {
     line-height: 1.6;
     font-weight: 400;
 }
-.home-button {
-    margin-top: 20px;
+#home {
+    width: 75%;
+}
+.home-video {
+    margin-top: 30px;
+}
+.home-below-content {
+    margin-top: 30px;
 }
 .home-button a {
     background-color: white;
     color: rgb(197, 26, 26);
+    font-size: 25px !important;
 }
 .home-button a:hover {
     background-color: rgb(197, 26, 26);

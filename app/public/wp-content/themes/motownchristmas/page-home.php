@@ -36,6 +36,15 @@
                             <p>Nothing yet to be displayed!</p>
                         <?php endif;
                         ?>
+                    <section class="home-below-content">
+                        <div id="home-below-text">
+                            <?php 
+                                if( is_active_sidebar( 'home-below-content' )){
+                                    dynamic_sidebar( 'home-below-content' );
+                                }
+                            ?>
+                        </div>
+                    </section>
 
         </div>
         
