@@ -20,6 +20,8 @@ Tags:
 .site {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
+    background-image: url(./assets/red_background.png);
+    background-position: center;
 }
 
 .container {
