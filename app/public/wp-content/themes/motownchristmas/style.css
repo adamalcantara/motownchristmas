@@ -22,6 +22,7 @@ Tags:
     font-weight: 400;
     background-image: url(./assets/red_background.png);
     color: white !important;
+    min-height: 100vh;
 }
 
 .container {
@@ -161,12 +162,21 @@ h3 {
 }
 .home-button a {
     background-color: white;
-    color: rgb(197, 26, 26);
+    color: #c51a1a;
     font-size: 25px !important;
 }
 .home-button a:hover {
     background-color: rgb(197, 26, 26);
     color: white;
+}
+
+/* TOUR SCHEDULE */
+.tour-schedule {
+    background-color: white !important;
+    color: white !important;
+}
+.content-area {
+    width: 80% !important;
 }
 
 /* FOOTER */
