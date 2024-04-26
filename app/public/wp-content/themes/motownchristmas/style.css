@@ -171,12 +171,11 @@ h3 {
 }
 
 /* TOUR SCHEDULE */
-.tour-schedule {
-    background-color: white !important;
-    color: white !important;
-}
 .content-area {
     width: 80% !important;
+}
+#tribe-events .tribe-events p {
+    color: white !important;
 }
 
 /* FOOTER */
@@ -190,7 +189,7 @@ h3 {
 
 #footerlink {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 #footerlink:hover {
