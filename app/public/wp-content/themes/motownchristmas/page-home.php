@@ -4,6 +4,8 @@
         <div id="content" class="container site-content">
 
                 <!-- Homepage sections -->
+
+                    <!-- Top banner -->
                     <section class="home-banner">
                         <div id="home-banner-img">
                             <?php 
@@ -13,6 +15,8 @@
                             ?>
                         </div>
                     </section>
+
+                    <!-- Widget for copy text -->
                     <section class="home-text">
                         <div id="home-text">
                             <?php 
@@ -21,6 +25,8 @@
                                 }
                             ?>
                         </div>
+
+                    <!-- Content from CMS -->
                     </section>
                         <?php 
                             if( have_posts() ):
@@ -36,6 +42,8 @@
                             <p>Nothing yet to be displayed!</p>
                         <?php endif;
                         ?>
+
+                    <!-- Widget from CMS for the Tour Schedule button -->
                     <section class="home-below-content">
                         <div id="home-below-text">
                             <?php 
