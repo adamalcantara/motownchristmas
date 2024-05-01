@@ -67,5 +67,29 @@ function motownchristmas_sidebars(){
             'after_title' => '</h4>'
         )
     );
+
+    // ABOUT PAGE SIDEBARS
+    register_sidebar(
+        array(
+            'name' => 'About Header Image',
+            'id' => 'about-header-img',
+            'description' => 'This is for the header of the about page',
+            'before_widget' => '<div class="widget-wrapper">',
+            'after_widget' => '</div>',
+            'before_title' => '<h4 class="widget-title"',
+            'after_title' => '</h4>'
+        )
+    );
+    register_sidebar(
+        array(
+            'name' => 'About Header',
+            'id' => 'about-header',
+            'description' => 'This is for the header of the about page',
+            'before_widget' => '<div class="widget-wrapper">',
+            'after_widget' => '</div>',
+            'before_title' => '<h4 class="widget-title"',
+            'after_title' => '</h4>'
+        )
+    );
 }
 ?>
