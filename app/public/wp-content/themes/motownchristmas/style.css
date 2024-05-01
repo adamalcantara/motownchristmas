@@ -174,12 +174,18 @@ h3 {
 #about-header {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    margin-bottom: 40px;
 }
 #about-header-img {
-    width: 35%;
+    width: 25%;
 }
 #about-header-text {
     text-align: center;
+    width: 75%;
+}
+.about-header-h2 {
+    font-size: 40px !important;
 }
 .about-header-p {
     font-size: 20px;
@@ -328,6 +334,16 @@ h3 {
         font-size: 20px !important;
     }
     /* ABOUT PAGE MEDIA QUERY */
+    #about-header {
+        flex-direction: column;
+    }
+    #about-header-img {
+        width: 40%;
+    }
+    #about-header-text {
+        text-align: center;
+        width: 95%;
+    }
     .performers-grid {
         flex-direction: column;
     }
