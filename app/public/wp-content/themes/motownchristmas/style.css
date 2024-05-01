@@ -313,6 +313,10 @@ h3 {
     #home-text {
         font-size: 20px !important;
     }
+    /* ABOUT PAGE MEDIA QUERY */
+    .performers-grid {
+        flex-direction: column;
+    }
 } 
 
 @media (max-width: 900px) {
