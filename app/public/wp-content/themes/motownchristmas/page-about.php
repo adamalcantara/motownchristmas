@@ -1,6 +1,6 @@
 <?php get_header(); ?>
     <div class="performers-grid">
-        <div id="performer-column-1">
+        <div id="performer-column-1" class="performer-column">
             <section class="about-performer">
 
             </section>
@@ -8,12 +8,12 @@
                 
             </section>
         </div>
-        <div id="performer-column-2">
+        <div id="performer-column-2" class="performer-column">
             <section class="about-performer">
             
             </section>
         </div>
-        <div id="performer-column-3">
+        <div id="performer-column-3" class="performer-column">
             <section class="about-performer">
             
             </section>
