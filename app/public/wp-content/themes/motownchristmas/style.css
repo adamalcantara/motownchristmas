@@ -170,6 +170,14 @@ h3 {
     color: white;
 }
 
+/* ABOUT PAGE */
+.about-performer {
+    background-color: white;
+    border: 2px solid black;
+    width: 30%;
+    height: 100px;
+}
+
 /* TOUR SCHEDULE */
 .content-area {
     width: 80% !important;

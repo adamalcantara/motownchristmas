@@ -634,3 +634,4 @@ Stack trace:
 [12-Apr-2024 23:53:13 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/adamalcantara/Local Sites/motownchristmas/app/public/wp-includes/class-wp-customize-widgets.php on line 905
 [12-Apr-2024 23:53:59 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/adamalcantara/Local Sites/motownchristmas/app/public/wp-includes/class-wp-customize-widgets.php on line 905
 [13-Apr-2024 00:00:43 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/adamalcantara/Local Sites/motownchristmas/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[01-May-2024 02:19:57 UTC] PHP Warning:  file_get_contents(/Users/adamalcantara/Local Sites/motownchristmas/app/public/wp-content/plugins/event-tickets/event-tickets.php): Failed to open stream: No such file or directory in /Users/adamalcantara/Local Sites/motownchristmas/app/public/wp-includes/functions.php on line 6805
