@@ -69,6 +69,7 @@ function motownchristmas_sidebars(){
     );
 
     // ABOUT PAGE SIDEBARS
+    // HEADER
     register_sidebar(
         array(
             'name' => 'About Header Image',
@@ -85,6 +86,63 @@ function motownchristmas_sidebars(){
             'name' => 'About Header',
             'id' => 'about-header',
             'description' => 'This is for the header of the about page',
+            'before_widget' => '<div class="widget-wrapper">',
+            'after_widget' => '</div>',
+            'before_title' => '<h4 class="widget-title"',
+            'after_title' => '</h4>'
+        )
+    );
+
+    // GRID
+    register_sidebar(
+        array(
+            'name' => 'Performer Grid 1',
+            'id' => 'performer-1',
+            'description' => 'This is one of the performer grid boxes',
+            'before_widget' => '<div class="widget-wrapper">',
+            'after_widget' => '</div>',
+            'before_title' => '<h4 class="widget-title"',
+            'after_title' => '</h4>'
+        )
+    );
+    register_sidebar(
+        array(
+            'name' => 'Performer Grid 2',
+            'id' => 'performer-2',
+            'description' => 'This is one of the performer grid boxes',
+            'before_widget' => '<div class="widget-wrapper">',
+            'after_widget' => '</div>',
+            'before_title' => '<h4 class="widget-title"',
+            'after_title' => '</h4>'
+        )
+    );
+    register_sidebar(
+        array(
+            'name' => 'Performer Grid 3',
+            'id' => 'performer-3',
+            'description' => 'This is one of the performer grid boxes',
+            'before_widget' => '<div class="widget-wrapper">',
+            'after_widget' => '</div>',
+            'before_title' => '<h4 class="widget-title"',
+            'after_title' => '</h4>'
+        )
+    );
+    register_sidebar(
+        array(
+            'name' => 'Performer Grid 4',
+            'id' => 'performer-4',
+            'description' => 'This is one of the performer grid boxes',
+            'before_widget' => '<div class="widget-wrapper">',
+            'after_widget' => '</div>',
+            'before_title' => '<h4 class="widget-title"',
+            'after_title' => '</h4>'
+        )
+    );
+    register_sidebar(
+        array(
+            'name' => 'Performer Grid 5',
+            'id' => 'performer-5',
+            'description' => 'This is one of the performer grid boxes',
             'before_widget' => '<div class="widget-wrapper">',
             'after_widget' => '</div>',
             'before_title' => '<h4 class="widget-title"',
