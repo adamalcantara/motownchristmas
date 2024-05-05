@@ -2,7 +2,9 @@
 
 <div id="content" class="container site-content">
 
+    <!-- Header for the about page -->
     <div id="about-header">
+        <!-- Image for the header -->
         <section id="about-header-img">
             <?php 
                 if( is_active_sidebar( 'about-header-img' )){
@@ -10,6 +12,7 @@
                 }
             ?>
         </section>
+        <!-- Text for the header -->
         <section id="about-header-text">
             <?php 
                 if( is_active_sidebar( 'about-header' )){

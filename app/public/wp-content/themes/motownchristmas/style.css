@@ -201,13 +201,12 @@ h3 {
 }
 .about-performer {
     margin-bottom: 20px;
-    height: 500px;
+    height: 50%;
 }
 .about-performer-p {
     margin-top: 10px;
     font-size: 25px;
     line-height: 30px;
-    min-height: 50px !important;
 }
 #performer-column-2 {
     display: flex;
