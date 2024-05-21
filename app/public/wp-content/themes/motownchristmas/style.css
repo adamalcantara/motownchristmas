@@ -221,7 +221,7 @@ h3 {
     margin-top: 30px;
 }
 .schedule-grid {
-    text-align: center;
+    text-align: left;
     font-size: 30px;
     line-height: 50px;
     margin-top: 30px;
@@ -362,6 +362,15 @@ h3 {
     .about-performer {
         height: auto;
     }
+
+    /* TOUR SCHEDULE */
+
+    /* .schedule-grid {
+        display: flex;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        font-size: 8px !important;
+    } */
 } 
 
 @media (max-width: 900px) {
@@ -376,6 +385,9 @@ h3 {
         font-size: 25px;
         padding: 15px;
     }
+    .schedule-grid {
+        font-size: 15px !important;
+    }
 }
 
 @media (max-width: 1500px) {
@@ -387,6 +399,15 @@ h3 {
     }
     .home-banner-text h3 {
         font-size: 20px !important;
+    }
+    .schedule-grid {
+        font-size: 20px !important;
+    }
+}
+
+@media (max-width: 1600px) {
+    .schedule-grid {
+        font-size: 25px;
     }
 }
 
