@@ -221,10 +221,20 @@ h3 {
     margin-top: 30px;
 }
 .schedule-grid {
-    text-align: left;
+
+}
+.tour-date {
+    text-align: center;
+    border: 2px solid white;
+    width: 40%;
     font-size: 30px;
-    line-height: 50px;
-    margin-top: 30px;
+    margin: 0 auto 15px auto;
+    padding: 15px;
+    background-color: rgba(163, 13, 13, 0.663);
+}
+
+.tour-date:hover {
+    background-color: rgb(80, 156, 80);
 }
 
 /* FOOTER */
