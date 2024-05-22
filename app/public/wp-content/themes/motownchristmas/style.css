@@ -218,7 +218,7 @@ h3 {
 }
 .month-header {
     font-size: 40px !important;
-    margin-top: 30px;
+    margin: 30px 0;
 }
 .tour-block {
     flex-direction: column !important;
