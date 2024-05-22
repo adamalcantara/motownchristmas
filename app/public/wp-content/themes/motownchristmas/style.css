@@ -220,17 +220,21 @@ h3 {
     font-size: 40px !important;
     margin-top: 30px;
 }
-.schedule-grid {
-
+.tour-block {
+    flex-direction: column !important;
 }
 .tour-date {
     text-align: center;
     border: 2px solid white;
-    width: 40%;
+    width: 40% !important;
     font-size: 30px;
-    margin: 0 auto 15px auto;
-    padding: 15px;
-    background-color: rgba(163, 13, 13, 0.663);
+    margin: 20px auto;
+    background-color: #a30d0d8f;
+}
+
+.tour-date a {
+    text-decoration: none;
+    color: white !important;
 }
 
 .tour-date:hover {
@@ -375,12 +379,9 @@ h3 {
 
     /* TOUR SCHEDULE */
 
-    /* .schedule-grid {
-        display: flex;
-        flex-direction: row !important;
-        flex-wrap: nowrap !important;
-        font-size: 8px !important;
-    } */
+    .tour-date {
+        width: 100% !important;
+    }
 } 
 
 @media (max-width: 900px) {
@@ -412,6 +413,9 @@ h3 {
     }
     .schedule-grid {
         font-size: 20px !important;
+    }
+    .tour-date {
+        width: 60%;
     }
 }
 
