@@ -226,7 +226,7 @@ h3 {
 .tour-date {
     text-align: center;
     border: 2px solid white;
-    width: 40% !important;
+    width: 100% !important;
     font-size: 30px;
     margin: 20px auto;
     background-color: #a30d0d8f;
@@ -380,7 +380,7 @@ h3 {
     /* TOUR SCHEDULE */
 
     .tour-date {
-        width: 100% !important;
+        font-size: 15px;
     }
 } 
 
