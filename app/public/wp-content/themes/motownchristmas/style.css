@@ -212,6 +212,19 @@ h3 {
     margin: 0 20px;
 }
 
+/* MEDIA GALLERY */
+.download-file {
+    margin: 20px auto;
+}
+.download-file a {
+    text-decoration: underline;
+    color: white !important;
+    font-size: 20px;
+}
+.media-gallery {
+    margin: 20px auto;
+}
+
 /* TOUR SCHEDULE */
 .content-area {
     width: 80% !important;
@@ -239,6 +252,19 @@ h3 {
 
 .tour-date:hover {
     background-color: rgb(80, 156, 80);
+}
+
+.tour-table {
+    font-size: 30px;
+}
+
+.tour-table td {
+    border: none !important;
+}
+
+.tour-table a {
+    text-decoration: none;
+    color: white;
 }
 
 /* FOOTER */
@@ -380,6 +406,10 @@ h3 {
     /* TOUR SCHEDULE */
 
     .tour-date {
+        font-size: 15px;
+    }
+
+    .tour-table {
         font-size: 15px;
     }
 } 
