@@ -227,7 +227,7 @@ h3 {
 
 /* TOUR SCHEDULE */
 .content-area {
-    width: 80% !important;
+    width: 90% !important;
 }
 .month-header {
     font-size: 40px !important;
@@ -255,7 +255,11 @@ h3 {
 }
 
 .tour-table {
-    font-size: 30px;
+    font-size: 2vw;
+}
+
+.tour-table table {
+    border-spacing: 0 15px !important;
 }
 
 .tour-table td {
@@ -406,10 +410,6 @@ h3 {
     /* TOUR SCHEDULE */
 
     .tour-date {
-        font-size: 15px;
-    }
-
-    .tour-table {
         font-size: 15px;
     }
 } 
