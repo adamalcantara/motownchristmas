@@ -229,29 +229,35 @@ h3 {
 .content-area {
     width: 90% !important;
 }
+.tour-header-text {
+    line-height: 3vw;
+    margin: 15px auto;
+}
+.button-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px auto;
+}
+.tour-button a {
+    background-color: white;
+    color: #c51a1a;
+    font-size: 1.5vw !important;
+}
+.tour-button a:hover {
+    background-color: rgb(197, 26, 26);
+    color: white;
+}
 .month-header {
-    font-size: 40px !important;
+    font-size: 3vw !important;
     margin: 30px 0;
+    text-align: center;
 }
 .tour-block {
     flex-direction: column !important;
 }
-.tour-date {
-    text-align: center;
-    border: 2px solid white;
-    width: 100% !important;
-    font-size: 30px;
-    margin: 20px auto;
-    background-color: #a30d0d8f;
-}
-
-.tour-date a {
-    text-decoration: none;
-    color: white !important;
-}
-
-.tour-date:hover {
-    background-color: rgb(80, 156, 80);
+.tour-header-text {
+    font-size: 2vw;
 }
 
 .tour-table {
