@@ -47,7 +47,7 @@ h3 {
 
 .pageTitle {
     text-align: center;
-    color: yellow;
+    color: #ffff00;
 }
 
 #header {
@@ -294,6 +294,9 @@ h3 {
     align-items: center;
     justify-content: center;
     margin-top: 30px;
+}
+#footertext {
+    font-size: 20px;
 }
 
 #footerlink {
