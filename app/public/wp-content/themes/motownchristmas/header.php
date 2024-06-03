@@ -10,38 +10,39 @@
 <!-- Body section -->
 <body <?php body_class(); ?>>
     <div id="page" class="container site">
-    
-        <!-- Header section -->
-        <header id="header">
-                <section class="nav">
+            <div id="siteContent">
+        
+            <!-- Header section -->
+            <header id="header">
+                    <section class="nav">
 
-                    <!-- Logo -->
-                    <div id="logo">
-                        <?php 
-                        if ( has_custom_logo() ){
-                            the_custom_logo(); 
-                        }else{
+                        <!-- Logo -->
+                        <div id="logo">
+                            <?php 
+                            if ( has_custom_logo() ){
+                                the_custom_logo(); 
+                            }else{
+                                ?>
+                                <a href="<?php echo home_url( '/' ); ?>"><span><?php bloginfo( 'name'
+                                ); ?></span></a>
+                                <?php
+                            }
                             ?>
-                            <a href="<?php echo home_url( '/' ); ?>"><span><?php bloginfo( 'name'
-                            ); ?></span></a>
-                            <?php
-                        }
-                        ?>
-                    </div>
+                        </div>
 
-                        <!-- Mobile Menu button -->
-                        <button class="check-button">
-                                <div class="menu-icon">
-                                    <div class="bar1"></div>
-                                    <div class="bar2"></div>
-                                    <div class="bar3"></div>
-                                </div>
-                        </button>
-                </section>
-                
-                <!-- Main menu -->
-                <nav id="main-menu" class="main-menu">
-                    <?php wp_nav_menu( array( 'theme_location' => 'motownchristmas_main_menu', 'depth' => 2 ) ); ?>
-                </nav>
+                            <!-- Mobile Menu button -->
+                            <button class="check-button">
+                                    <div class="menu-icon">
+                                        <div class="bar1"></div>
+                                        <div class="bar2"></div>
+                                        <div class="bar3"></div>
+                                    </div>
+                            </button>
+                    </section>
+                    
+                    <!-- Main menu -->
+                    <nav id="main-menu" class="main-menu">
+                        <?php wp_nav_menu( array( 'theme_location' => 'motownchristmas_main_menu', 'depth' => 2 ) ); ?>
+                    </nav>
 
-        </header>
+            </header>

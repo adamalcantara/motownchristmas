@@ -1,3 +1,5 @@
+<!-- End of siteContent div -->
+</div>
         <!-- Footer goes here -->
         <div id="footer">
             <p id="footertext">
