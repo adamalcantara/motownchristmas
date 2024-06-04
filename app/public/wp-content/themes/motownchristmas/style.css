@@ -157,6 +157,10 @@ h3 {
     line-height: 1.6;
     font-weight: 400;
 }
+.home-header-text {
+    font-size: 20px !important;
+    line-height: 25px !important;
+}
 #home {
     width: 75%;
 }
@@ -244,7 +248,8 @@ h3 {
     width: 90% !important;
 }
 .tour-header-text {
-    line-height: 3vw;
+    font-size: 20px !important;
+    line-height: 25px;
     margin: 15px auto;
 }
 .button-row {
@@ -408,9 +413,6 @@ h3 {
     .home-text {
         margin: 20px 0 !important;
         padding: 30px 0 !important;
-    }
-    #home-text {
-        font-size: 20px !important;
     }
     /* ABOUT PAGE MEDIA QUERY */
     #about-header {
